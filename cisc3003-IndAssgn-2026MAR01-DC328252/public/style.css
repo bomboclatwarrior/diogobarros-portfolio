@@ -236,6 +236,23 @@ footer{
 	mix-blend-mode:lighten;
 }
 
+
+
+.highlights {
+  padding: 24px 20px;
+  clear: both;
+}
+
+
+
+.highlights .photos img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius:30%;
+}
+
 .bars-animation{
 	position:absolute;
 	width:100%;
@@ -257,21 +274,6 @@ footer{
 	100%{
 		transform:translateY(0%);
 	}
-}
-
-
-.highlights {
-  padding: 24px 20px;
-  clear: both;
-}
-
-
-
-.highlights .photos img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 
